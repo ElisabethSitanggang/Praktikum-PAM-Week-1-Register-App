@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com  /apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#7AD17D"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Username_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="24sp"
+        android:textColor="#042405"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/Username_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginEnd="35sp"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/Username_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="35sp"
+        android:layout_marginEnd="35sp"
+        android:layout_marginBottom="15sp"
+        android:textSize="16sp"
+        android:hint="Enter your username"/>
+
+    <TextView
+        android:id="@+id/Password_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="35sp"
+        android:layout_marginEnd="35sp"
+        android:layout_marginTop="0sp"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/Password_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15sp"
+        android:layout_marginStart="35sp"
+        android:layout_marginEnd="35sp"
+        android:inputType="textPassword"
+        android:textSize="16sp"
+        android:hint="Minimal 8 huruf"/>
+
+
+    <TextView
+        android:id="@+id/NoHP_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0sp"
+        android:layout_marginStart="35sp"
+        android:layout_marginEnd="35sp"
+        android:hint="@string/phone_number"/>
+
+    <EditText
+        android:id="@+id/PhoneNumber_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15sp"
+        android:layout_marginStart="35sp"
+        android:layout_marginEnd="35sp"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:hint="@string/enter_your_phone_number"/>
+
+    <TextView
+        android:id="@+id/Country_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0sp"
+        android:layout_marginStart="35sp"
+        android:layout_marginEnd="35sp"
+        android:hint="@string/country"/>
+
+    <EditText
+        android:id="@+id/Country_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15sp"
+        android:layout_marginStart="35sp"
+        android:layout_marginEnd="35sp"
+        android:textSize="16sp"
+        android:hint="@string/enter_your_country"/>
+
+    <TextView
+        android:id="@+id/Gender_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="35sp"
+        android:layout_marginEnd="35sp"
+        android:hint="@string/gender"/>
+
+    <EditText
+        android:id="@+id/Gender_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15sp"
+        android:layout_marginStart="35sp"
+        android:layout_marginEnd="35sp"
+        android:textSize="16sp"
+        android:hint="@string/male_female"/>
+
+
+    <Button
+        android:id="@+id/Register_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#276629"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginEnd="50sp"
+        android:text="@string/next"
+        android:textColor="#FDFDFD"/>
+
+</LinearLayout>
