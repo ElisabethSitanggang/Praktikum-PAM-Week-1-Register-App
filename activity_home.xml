@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7AD17D"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/Welcome_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/welcome"
+        android:textSize="28sp"
+        android:textColor="#042405"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/home_username"
+        style="FDFDFDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="15sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        />
+
+    <TextView
+        android:id="@+id/home_password"
+        style="FDFDFDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="15sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        />
+
+
+    <TextView
+        android:id="@+id/home_phonenumber"
+        style="FDFDFDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp" />
+
+    <TextView
+        android:id="@+id/home_country"
+        style="FDFDFDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="10sp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/home_gender"
+        style="FDFDFDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Back_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#276629"
+        android:text="@string/back"
+        android:textColor="#FDFDFD"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginEnd="50sp" />
+
+</LinearLayout>
+
